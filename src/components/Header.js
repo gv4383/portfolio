@@ -7,7 +7,7 @@ const Header = () => (
   <header id="header">
     <div className="inner">
       <a href="#" className="image avatar">
-        <img src={avatar} alt="Avatar Image" />
+        <img src={avatar} alt="Avatar" />
       </a>
       <h1>Greg Vargas</h1>
       <h1>Software Engineer</h1>
@@ -15,27 +15,27 @@ const Header = () => (
       <br />
       <div>
         <p>
-          <a className="no-link" href="#/about">
+          <a className="no-link" href="#about">
             About Me
           </a>
         </p>
         <p>
-          <a className="no-link" href="#/skill">
+          <a className="no-link" href="#skills">
             Skills
           </a>
         </p>
         <p>
-          <a className="no-link" href="#/work">
+          <a className="no-link" href="#work">
             Work Experience
           </a>
         </p>
         <p>
-          <a className="no-link" href="#/projects">
+          <a className="no-link" href="#projects">
             Personal Projects
           </a>
         </p>
         <p>
-          <a className="no-link" href="#/contact">
+          <a className="no-link" href="#contact">
             Contact Me
           </a>
         </p>
