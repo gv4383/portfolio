@@ -943,7 +943,18 @@
 
 		.image.avatar {
 			margin: 0 0 (_size(element-margin) * 0.5) 0;
-			width: 6.25em;
+			width: 10em;
+		}
+
+		p {
+			margin-bottom: 0;
+		}
+
+		.no-link {
+			text-decoration: none;
+			outline: none;
+			border: none;
+			color: inherit;
 		}
 	}
 
