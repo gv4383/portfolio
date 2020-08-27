@@ -15,27 +15,27 @@ const Header = () => (
       <br />
       <div>
         <p>
-          <a className="no-link" href="#about">
+          <a className="no-link" href="#/about">
             About Me
           </a>
         </p>
         <p>
-          <a className="no-link" href="#skill">
+          <a className="no-link" href="#/skill">
             Skills
           </a>
         </p>
         <p>
-          <a className="no-link" href="#work">
+          <a className="no-link" href="#/work">
             Work Experience
           </a>
         </p>
         <p>
-          <a className="no-link" href="#projects">
+          <a className="no-link" href="#/projects">
             Personal Projects
           </a>
         </p>
         <p>
-          <a className="no-link" href="#contact">
+          <a className="no-link" href="#/contact">
             Contact Me
           </a>
         </p>
