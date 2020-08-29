@@ -38,15 +38,17 @@ const HomeIndex = () => {
             <br />
             <br />
             When I'm not coding, you'll find me:
-            <ul>
-              <li>
-                Playing guitar and jamming with the best musicians around
-                town!
-              </li>
-              <li>Learning new cooking recipies</li>
-              <li>Bouldering</li>
-              <li>Hiking and exploring nature</li>
-            </ul>
+          </p>
+          <ul>
+            <li>
+              Playing guitar and jamming with the best musicians around
+              town!
+            </li>
+            <li>Learning new cooking recipies</li>
+            <li>Bouldering</li>
+            <li>Hiking and exploring nature</li>
+          </ul>
+          <p>
             Below, you'll find my credentials as well as the accomplishments
             I've made throughout my journey in software development.
           </p>
@@ -71,8 +73,8 @@ const HomeIndex = () => {
           <h2>Work Experience</h2>
 
           <h3 className="work-title">
-            <a className="no-link" href="https://www.silvercar.com" rel="noopener noreferrer" target="_blank">
-              Silvercar Inc.
+            <a className="no-link" href="https://www.dealerware.com/" rel="noopener noreferrer" target="_blank">
+              Silvercar Inc. - Dealerware
               {' '}
               <span className="icon fa-external-link" />
             </a>
@@ -103,8 +105,8 @@ const HomeIndex = () => {
           </ul>
 
           <h3 className="work-title">
-            <a className="no-link" href="https://business.jollyhq.com" rel="noopener noreferrer" target="_blank">
-              JollyFMS
+            <a className="no-link" href="https://www.jollyhq.com" rel="noopener noreferrer" target="_blank">
+              Jolly
               {' '}
               <span className="icon fa-external-link" />
             </a>
@@ -121,14 +123,19 @@ const HomeIndex = () => {
 
         <section id="four">
           <a name="projects" />
-          <h2>Recent Work</h2>
+          <h2>Personal Projects</h2>
 
           <Gallery />
 
           <ul className="actions">
             <li>
-              <a href="#" className="button">
-                Full Portfolio
+              <a
+                href="https://github.com/gv4383"
+                className="button"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
               </a>
             </li>
           </ul>
