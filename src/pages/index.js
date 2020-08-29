@@ -8,8 +8,8 @@ import Skills from '../components/Skills'
 import resume from '../assets/resume/Greg_Vargas_Software_Engineer_Resume.pdf'
 
 const HomeIndex = () => {
-  const siteTitle = 'Gatsby Starter - Strata'
-  const siteDescription = 'Site description'
+  const siteTitle = 'Greg Vargas - Software Engineer'
+  const siteDescription = 'Greg Vargas - Software Engineer Portfolio'
 
   return (
     <Layout>
