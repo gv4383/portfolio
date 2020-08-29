@@ -21,7 +21,7 @@ export const IMAGES = [
       description: 'Search for songs and create custom playlists.',
       technology: 'React | Redux | Express | Node | PostgreSQL | Spotify Web API',
       github: 'https://github.com/gv4383/project-playlist',
-      website: 'http://soundskwerl.com'
+      link: 'http://soundskwerl.com'
     },
     {
       id: '3',
@@ -31,6 +31,6 @@ export const IMAGES = [
       description: 'Customize a list of videogame heroes.',
       technology: 'React | Express | Node | Overwatch API',
       github: 'https://github.com/gv4383/no-db-project',
-      website: 'https://github.com/gv4383/no-db-project'
+      link: 'https://github.com/gv4383/no-db-project'
     }
 ]
