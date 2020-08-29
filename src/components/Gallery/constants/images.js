@@ -12,7 +12,7 @@ import thumb05 from '../../../assets/images/thumbs/05.jpg'
 import thumb06 from '../../../assets/images/thumbs/06.jpg'
 
 
-export const DEFAULT_IMAGES = [
+export const IMAGES = [
     {
       id: '1',
       source: full01,
