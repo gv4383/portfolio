@@ -18,7 +18,6 @@ const Gallery = ({ images = IMAGES }) => (
             source={obj.source}
             technology={obj.technology}
             thumbnail={obj.thumbnail}
-            // toggleLightbox={toggleLightbox}
           />);
         })}
       </div>
