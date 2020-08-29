@@ -24,7 +24,6 @@ const Gallery = ({ images = IMAGES }) => {
               thumbnail={obj.thumbnail}
               caption={obj.caption}
               description={obj.description}
-              position={obj.position}
               position={i}
               toggleLightbox={toggleLightbox}
             />);
