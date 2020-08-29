@@ -15,20 +15,20 @@ const Gallery = ({ images = IMAGES }) => {
 
   return (
     <div>
-      {images && (<div className="row">
-        {images.map((obj, i) => {
-        return (<GalleryItem
-          id={obj.id}
-          source={obj.source}
-          thumbnail={obj.thumbnail}
-          caption={obj.caption}
-          description={obj.description}
-          position={obj.position}
-          toggleLightbox={obj.toggleLightbox}
-          position={i}
-          toggleLightbox={toggleLightbox}
-        />); 
-        })}
+      {images && (
+        <div className="row">
+          {images.map((obj, i) => {
+            return (<GalleryItem
+              id={obj.id}
+              source={obj.source}
+              thumbnail={obj.thumbnail}
+              caption={obj.caption}
+              description={obj.description}
+              position={obj.position}
+              position={i}
+              toggleLightbox={toggleLightbox}
+            />);
+          })}
         </div>
       )}
       <ModalGateway>
