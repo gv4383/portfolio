@@ -2,18 +2,17 @@ import React from 'react'
 
 import reactLogo from '../assets/skills/react_logo.svg'
 import es6Logo from '../assets/skills/es6_logo.svg'
+import typscriptLogo from '../assets/skills/typescript_logo.svg'
 import expressLogo from '../assets/skills/express_logo.svg'
 import vueLogo from '../assets/skills/vue_logo.svg'
 import gitLogo from '../assets/skills/git_logo.svg'
 import postgresLogo from '../assets/skills/postgres_logo.svg'
 import nodeLogo from '../assets/skills/node_logo.svg'
-import npmLogo from '../assets/skills/npm_logo.svg'
 import sassLogo from '../assets/skills/sass_logo.svg'
 import cssLogo from '../assets/skills/css_logo.svg'
 import reduxLogo from '../assets/skills/redux_logo.svg'
 import htmlLogo from '../assets/skills/html_logo.svg'
 import railsLogo from '../assets/skills/rails_logo.svg'
-// import railsLogo from '../assets/skills/rails-logo.png'
 
 const skillsArray = [
   {
@@ -32,8 +31,7 @@ const skillsArray = [
     id: '3',
     name: 'Ruby on Rails',
     url: 'https://rubyonrails.org/',
-    src: railsLogo,
-    // src: '',
+    src: railsLogo
   },
   {
     id: '4',
@@ -49,42 +47,48 @@ const skillsArray = [
   },
   {
     id: '6',
+    name: 'TypeScript',
+    url: 'https://www.typescriptlang.org/',
+    src: typscriptLogo,
+  },
+  {
+    id: '7',
     name: 'Express',
     url: 'https://expressjs.com/',
     src: expressLogo,
   },
   {
-    id: '7',
+    id: '8',
     name: 'Node',
     url: 'https://nodejs.org/en/',
     src: nodeLogo,
   },
   {
-    id: '8',
+    id: '9',
     name: 'PostgreSQL',
     url: 'https://www.postgresql.org/',
     src: postgresLogo,
   },
   {
-    id: '9',
+    id: '10',
     name: 'Sass',
     url: 'https://sass-lang.com/',
     src: sassLogo,
   },
   {
-    id: '10',
+    id: '11',
     name: 'HTML5',
     url: 'https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5',
     src: htmlLogo,
   },
   {
-    id: '11',
+    id: '12',
     name: 'CSS3',
     url: 'https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3',
     src: cssLogo,
   },
   {
-    id: '12',
+    id: '13',
     name: 'Git + GitHub',
     url: 'https://git-scm.com/',
     src: gitLogo,
