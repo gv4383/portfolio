@@ -77,13 +77,13 @@ const skillsArray = [
   },
   {
     id: '11',
-    name: 'HTML5',
+    name: 'HTML',
     url: 'https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5',
     src: htmlLogo,
   },
   {
     id: '12',
-    name: 'CSS3',
+    name: 'CSS',
     url: 'https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3',
     src: cssLogo,
   },
