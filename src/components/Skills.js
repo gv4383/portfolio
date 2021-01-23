@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 
 import reactLogo from '../assets/skills/react_logo.svg'
 import es6Logo from '../assets/skills/es6_logo.svg'
@@ -118,7 +118,13 @@ const Skills = () => {
     )
   })
 
-  return <div id="skills">{skillsArray[0] && displaySkills}</div>
+  return (
+    <Fragment>
+      <a name="skills" />
+      <h2>Skills</h2>
+      <div id="skills">{skillsArray[0] && displaySkills}</div>
+    </Fragment>
+  )
 };
 
 export default Skills

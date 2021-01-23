@@ -23,9 +23,6 @@ const HomeIndex = () => {
         </section>
 
         <section id="two">
-          <a name="skills" />
-          <h2>Skills</h2>
-
           <Skills />
         </section>
 
