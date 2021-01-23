@@ -6,6 +6,23 @@ const Work = () => (
     <h2>Work Experience</h2>
 
     <h3 className="work-title">
+      <a className="no-link" href="https://www.zilliant.com/" rel="noopener noreferrer" target="_blank">
+        Zilliant Inc.
+        {' '}
+        <span className="icon fa-external-link" />
+      </a>
+    </h3>
+    <div>Software Engineer</div>
+    <div>September 2020 - Present</div>
+    <ul>
+      <li>Implemented new UI features in React for Price Manager product</li>
+      <li>Implemented unique UX features based on user permissions/roles</li>
+      <li>Developed API services/endpoints in Node.js/Express to support UI</li>
+      <li>Tested UI components with Jest/Enzyme</li>
+      <li>Tested API endpoints with Mocha/Chai</li>
+    </ul>
+
+    <h3 className="work-title">
       <a className="no-link" href="https://www.dealerware.com/" rel="noopener noreferrer" target="_blank">
         Silvercar Inc. - Dealerware
         {' '}
