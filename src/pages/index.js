@@ -1,11 +1,10 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 
+import About from '../components/About'
 import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
 import Skills from '../components/Skills'
-
-import resume from '../assets/resume/Greg_Vargas_Software_Engineer_Resume.pdf'
 
 const HomeIndex = () => {
   const siteTitle = 'Greg Vargas - Software Engineer'
@@ -20,45 +19,7 @@ const HomeIndex = () => {
 
       <div id="main">
         <section id="one">
-          <a name="about" />
-          <header className="major">
-            <h2>
-              Hey there, I'm Greg!
-            </h2>
-          </header>
-          <p>
-            I'm a software engineer with a passion for creating innovative solutions.
-            <br />
-            <br />I originally graduated with a degree in Electrical
-            Engineering from Texas A&M University, but decided to jump into
-            software development after seeing a YouTube video on the tech
-            industry in Silicon Valley. It's been a long, continuous journey
-            full of learning and I couldn't be more content with my decision
-            to venture down this path.
-            <br />
-            <br />
-            When I'm not coding, you'll find me:
-          </p>
-          <ul>
-            <li>
-              Playing guitar and jamming with the best musicians around
-              town!
-            </li>
-            <li>Learning new cooking recipies</li>
-            <li>Bouldering</li>
-            <li>Hiking and exploring nature</li>
-          </ul>
-          <p>
-            Below, you'll find my credentials as well as the accomplishments
-            I've made throughout my journey in software development.
-          </p>
-          <ul className="actions">
-            <li>
-              <a href={resume} className="button" download>
-                Download Resume
-              </a>
-            </li>
-          </ul>
+          <About />
         </section>
 
         <section id="two">
@@ -80,7 +41,7 @@ const HomeIndex = () => {
             </a>
           </h3>
           <div>Software Engineer</div>
-          <div>April 2019 - Present</div>
+          <div>April 2019 - September 2020</div>
           <ul>
             <li>Created new customer interfacing product for Dealerware in React</li>
             <li>Implemented new micro frontend React features to replace legacy app</li>
