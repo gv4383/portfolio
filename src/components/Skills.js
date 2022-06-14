@@ -13,92 +13,118 @@ import cssLogo from '../assets/skills/css_logo.svg'
 import reduxLogo from '../assets/skills/redux_logo.svg'
 import htmlLogo from '../assets/skills/html_logo.svg'
 import railsLogo from '../assets/skills/rails_logo.svg'
+import swiftLogo from '../assets/skills/swift_logo.svg'
+import swiftUILogo from '../assets/skills/swiftui_logo.svg'
+
+// Go to https://icons8.com/icons/ for new icons
 
 const skillsArray = [
   {
+    id: '0',
+    hasPadding: true,
+    name: 'Swift',
+    url: 'https://www.swift.org/',
+    src: swiftLogo,
+  },
+  {
     id: '1',
+    hasPadding: true,
+    name: 'SwiftUI',
+    url: 'https://developer.apple.com/documentation/swiftui/',
+    src: swiftUILogo,
+  },
+  {
+    id: '2',
     name: 'React',
     url: 'https://reactjs.org/',
     src: reactLogo,
   },
   {
-    id: '2',
+    id: '3',
     name: 'Redux',
     url: 'https://redux.js.org/',
     src: reduxLogo,
   },
   {
-    id: '3',
+    id: '4',
     name: 'Ruby on Rails',
     url: 'https://rubyonrails.org/',
     src: railsLogo
   },
   {
-    id: '4',
+    id: '5',
     name: 'Vue.js',
     url: 'https://vuejs.org/',
     src: vueLogo,
   },
   {
-    id: '5',
+    id: '6',
     name: 'ES6+',
     url: 'https://es6.io/',
     src: es6Logo,
   },
   {
-    id: '6',
+    id: '7',
     name: 'TypeScript',
     url: 'https://www.typescriptlang.org/',
     src: typscriptLogo,
   },
   {
-    id: '7',
+    id: '8',
     name: 'Express',
     url: 'https://expressjs.com/',
     src: expressLogo,
   },
   {
-    id: '8',
+    id: '9',
     name: 'Node',
     url: 'https://nodejs.org/en/',
     src: nodeLogo,
   },
   {
-    id: '9',
+    id: '10',
     name: 'PostgreSQL',
     url: 'https://www.postgresql.org/',
     src: postgresLogo,
   },
   {
-    id: '10',
+    id: '11',
     name: 'Sass',
     url: 'https://sass-lang.com/',
     src: sassLogo,
   },
   {
-    id: '11',
+    id: '12',
     name: 'HTML',
     url: 'https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5',
     src: htmlLogo,
   },
   {
-    id: '12',
+    id: '13',
     name: 'CSS',
     url: 'https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3',
     src: cssLogo,
   },
   {
-    id: '13',
+    id: '14',
     name: 'Git + GitHub',
     url: 'https://git-scm.com/',
     src: gitLogo,
   }
 ]
 
+const skillClassNames = (skill) => {
+  const paddingClassName = skill.hasPadding
+    ? 'skills-icon-container'
+    : ''
+  
+  return `hvr-grow ${paddingClassName}`
+}
+
 const Skills = () => {
   const displaySkills = skillsArray.map(skill => {
     return (
-      <div key={skill.id} className="dev-icon">
+      <div key={`skill-${skill.id}`} className="dev-icon">
         <a
           className="no-link hover-icon"
           href={skill.url}
@@ -108,7 +134,7 @@ const Skills = () => {
           <p>{skill.name}</p>
           <div>
             <img
-              className="hvr-grow"
+              className={skillClassNames(skill)}
               src={skill.src}
               alt={skill.name}
             />
