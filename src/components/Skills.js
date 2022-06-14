@@ -122,27 +122,25 @@ const skillClassNames = (skill) => {
 }
 
 const Skills = () => {
-  const displaySkills = skillsArray.map(skill => {
-    return (
-      <div key={`skill-${skill.id}`} className="dev-icon">
-        <a
-          className="no-link hover-icon"
-          href={skill.url}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <p>{skill.name}</p>
-          <div>
-            <img
-              className={skillClassNames(skill)}
-              src={skill.src}
-              alt={skill.name}
-            />
-          </div>
-        </a>
-      </div>
-    )
-  })
+  const displaySkills = skillsArray.map(skill => (
+    <div key={`skill-${skill.id}`} className="dev-icon">
+      <a
+        className="no-link hover-icon"
+        href={skill.url}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <p>{skill.name}</p>
+        <div>
+          <img
+            className={skillClassNames(skill)}
+            src={skill.src}
+            alt={skill.name}
+          />
+        </div>
+      </a>
+    </div>
+  ))
 
   return (
     <Fragment>
