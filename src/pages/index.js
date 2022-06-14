@@ -66,8 +66,6 @@ const HomeIndex = () => {
                   <h3 className="icon fa-home">
                     <span className="label">Address</span>
                   </h3>
-                  Austin, TX
-                  <br />
                   United States
                 </li>
                 <li>

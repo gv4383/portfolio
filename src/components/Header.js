@@ -12,7 +12,7 @@ const Header = () => (
         alt="Avatar"
       />
       <h1>Greg Vargas</h1>
-      <h1>Software Engineer</h1>
+      <h1>iOS Engineer</h1>
       <br />
       <br />
       <div>
