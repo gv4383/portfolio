@@ -11,10 +11,10 @@ const About = () => (
       </h2>
     </header>
     <p>
-      I'm an iOS engineer with a passion for creating innovative solutions.
+      I'm a software engineer with 4 years of professional experience and a passion for creating innovative solutions.
       <br />
       <br />
-      During my final semester of college, I set out on a journey to better my programming skills in order to make my electrical engineering resume stand out to employers. As the semester came to a close, I realized that electrical engineering was not the right path for me and that software engineering was what I truly wanted to pursue in my professional career. Though it's been a long, difficult journey full of learning, I couldn't be more content with my decision to venture down this path.
+      In the past, I've worked as a Front End/Full Stack Engineer, but now I'm looking to make the leap into iOS development. I believe the knowledge and experience I've gained in the last 4 years will allow me to make for a smooth transition as an iOS Engineer.
       <br />
       <br />
       When I'm not coding, you'll find me:
@@ -24,8 +24,8 @@ const About = () => (
         Playing guitar and jamming with the best musicians around
         town!
       </li>
-      <li>Learning new cooking recipies</li>
       <li>Dancing salsa</li>
+      <li>Learning new cooking recipies</li>
     </ul>
     <p>
       Below, you'll find my credentials as well as the accomplishments
