@@ -1,7 +1,14 @@
+// iOS Projects
 import recipeMe from '../../../assets/images/projects/recipe_me_app_icon.png'
 import rainBoot from '../../../assets/images/projects/rain_boot_app_icon.png'
 
+// Web Projects
+// import fetchTech from '../../../assets/images/projects/fetch_tech.png'
+// import soundSkwer from '../../../assets/images/projects/sound_skwerl.png'
+// import noDb from '../../../assets/images/projects/noDB.png'
+
 export const IMAGES = [
+  // iOS Projects
     {
       id: '0',
       source: recipeMe,
