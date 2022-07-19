@@ -24,6 +24,7 @@ const About = () => (
         Playing guitar and jamming with the best musicians around
         town!
       </li>
+      <li>Disc golfing</li>
       <li>Dancing salsa</li>
       <li>Learning new cooking recipies</li>
     </ul>
