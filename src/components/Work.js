@@ -31,10 +31,10 @@ const Work = () => (
     <div>Software Engineer - Full Stack</div>
     <div>September 2020 - August 2021</div>
     <ul>
-      <li>Implemented new UI features in React for Price Manager product</li>
+      <li>Delivered iOS & web UI features using Swift/UIKit & React</li>
       <li>Implemented unique UX features based on user permissions/roles</li>
+      <li>Contributed to Redux architecture to allow for predictable app states </li>
       <li>Developed API services/endpoints in Node.js/Express to support UI</li>
-      <li>Tested UI components with Jest/Enzyme</li>
     </ul>
 
     <h3 className="work-title">
@@ -47,9 +47,9 @@ const Work = () => (
     <div>Software Engineer - Full Stack</div>
     <div>April 2019 - September 2020</div>
     <ul>
-      <li>Delivered features for new customer-facing app using React</li>
-      <li>Implemented new micro frontend React features to replace legacy app</li>
-      <li>Tested Redux actions/reducers/selectors and util methods with Jest/React Testing Library</li>
+      <li>Implemented features for iOS & web apps using Swift/UIKit & React</li>
+      <li>Contributed to starting/ending customer vehicle loans on mobile</li>
+      <li>Synchronized vehicle/loan data being shown on iOS and web apps</li>
       <li>Developed and tested API services/endpoints in Ruby on Rails</li>
     </ul>
 
