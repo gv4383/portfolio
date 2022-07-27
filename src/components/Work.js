@@ -28,7 +28,7 @@ const Work = () => (
         <span className="icon fa-external-link" />
       </a>
     </h3>
-    <div>Software Engineer - Full Stack</div>
+    <div>Software Engineer - iOS/Web</div>
     <div>September 2020 - August 2021</div>
     <ul>
       <li>Delivered iOS & web UI features using Swift/UIKit & React</li>
@@ -44,7 +44,7 @@ const Work = () => (
         <span className="icon fa-external-link" />
       </a>
     </h3>
-    <div>Software Engineer - Full Stack</div>
+    <div>Software Engineer - iOS/Web</div>
     <div>April 2019 - September 2020</div>
     <ul>
       <li>Implemented features for iOS & web apps using Swift/UIKit & React</li>
