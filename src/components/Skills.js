@@ -50,7 +50,7 @@ const skillsArray = [
     hasPadding: true,
     name: 'Ruby on Rails',
     url: 'https://rubyonrails.org/',
-    src: railsLogo
+    src: railsLogo,
   },
   {
     id: '5',
@@ -114,14 +114,12 @@ const skillsArray = [
     name: 'PostgreSQL',
     url: 'https://www.postgresql.org/',
     src: postgresLogo,
-  }
+  },
 ]
 
-const skillClassNames = (skill) => {
-  const paddingClassName = skill.hasPadding
-    ? 'skills-icon-container'
-    : ''
-  
+const skillClassNames = skill => {
+  const paddingClassName = skill.hasPadding ? 'skills-icon-container' : ''
+
   return `hvr-grow ${paddingClassName}`
 }
 
@@ -153,6 +151,6 @@ const Skills = () => {
       <div id="skills">{skillsArray[0] && displaySkills}</div>
     </Fragment>
   )
-};
+}
 
 export default Skills
