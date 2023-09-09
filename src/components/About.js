@@ -17,7 +17,7 @@ const About = () => (
       When I'm not coding, you'll find me:
     </p>
     <ul>
-      <li>Playing guitar and jamming with the best musicians aroundtown!</li>
+      <li>Playing guitar and jamming with the best musicians around town!</li>
       <li>Dancing salsa</li>
       <li>Disc golfing</li>
       <li>Learning new cooking recipies</li>
