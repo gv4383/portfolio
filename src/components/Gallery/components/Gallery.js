@@ -8,17 +8,18 @@ const Gallery = ({ images = IMAGES }) => (
     {images && (
       <div className="row">
         {images.map((obj, i) => {
-          return (<GalleryItem
-            caption={obj.caption}
-            description={obj.description}
-            github={obj.github}
-            id={obj.id}
-            link={obj.link}
-            position={i}
-            source={obj.source}
-            technology={obj.technology}
-            thumbnail={obj.thumbnail}
-          />);
+          return (
+            <GalleryItem
+              id={obj.id}
+              thumbnail={obj.thumbnail}
+              caption={obj.caption}
+              description={obj.description}
+              technology={obj.technology}
+              link={obj.link}
+              github={obj.github}
+              position={i}
+            />
+          )
         })}
       </div>
     )}
