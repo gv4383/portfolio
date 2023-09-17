@@ -1,6 +1,8 @@
 // Web Projects
 import shelfie from '../../../assets/images/projects/shelfie_app_icon.png'
+import shelfieAPI from '../../../assets/images/projects/shelfie_api_app_icon.png'
 import houser from '../../../assets/images/projects/houser_app_icon.png'
+import houserAPI from '../../../assets/images/projects/houser_api_app_icon.png'
 
 // iOS Projects
 import recipeMe from '../../../assets/images/projects/recipe_me_app_icon.png'
@@ -12,16 +14,16 @@ export const IMAGES = [
     id: '0',
     thumbnail: shelfie,
     caption: 'Shelfie Web',
-    description: 'Test',
+    description: 'Keep inventory and manage your e-commerce products.',
     technology: 'React | TypeScript | SCSS | HTML',
     link: 'https://github.com/gv4383/shelfie-web',
     github: 'https://github.com/gv4383/shelfie-web',
   },
   {
     id: '1',
-    thumbnail: shelfie,
+    thumbnail: shelfieAPI,
     caption: 'Shelfie API',
-    description: 'Test',
+    description: 'API for the Shelfie web application.',
     technology: 'Node.js | Express | TypeScript',
     link: 'https://github.com/gv4383/shelfie-api',
     github: 'https://github.com/gv4383/shelfie-api',
@@ -30,16 +32,16 @@ export const IMAGES = [
     id: '2',
     thumbnail: houser,
     caption: 'Houser Web',
-    description: 'Test',
+    description: 'Manage your property and home listings.',
     technology: 'React | TypeScript | Redux | SCSS | HTML',
     link: 'https://github.com/gv4383/houser-web',
     github: 'https://github.com/gv4383/houser-web',
   },
   {
     id: '3',
-    thumbnail: houser,
+    thumbnail: houserAPI,
     caption: 'Houser API',
-    description: 'Test',
+    description: 'API for the Houser web application.',
     technology: 'Node.js | Express | TypeScript | Knex.js | PostgreSQL',
     link: 'https://github.com/gv4383/houser-api',
     github: 'https://github.com/gv4383/houser-api',
