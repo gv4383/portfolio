@@ -53,14 +53,22 @@ const Work = () => (
     <div>August 2021 - July 2022</div>
     <ul>
       <li>
-        Delivered product description pages for new products and maintined
-        existing pages using React
+        Delivered product description pages for new products and maintained
+        existing pages using TypeScript and React
       </li>
       <li>
         Configured A/B tests across website to help drive business metrics and
         prioritize user experience improvements
       </li>
-      <li>Created new features behind feature flags for controlled releases</li>
+      <li>
+        Implemented new features behind feature flags to have controlled
+        releases without having to deploy new versions of our web application
+        and time important features/sales on high traffic days such as holidays
+      </li>
+      <li>
+        Contributed to Node.js proxy API by creating endpoints to efficiently
+        serve product data to various product description pages
+      </li>
     </ul>
 
     <h3 className="work-title">
@@ -77,8 +85,8 @@ const Work = () => (
     <div>September 2020 - August 2021</div>
     <ul>
       <li>
-        Delivered new UI features for web and iOS applications using React and
-        Swift/UIKit
+        Delivered new UI features and maintained existing features for web
+        applications using JavaScript and React
       </li>
       <li>
         Implemented user roles feature that would allow users to have different
@@ -108,12 +116,12 @@ const Work = () => (
     <div>April 2019 - September 2020</div>
     <ul>
       <li>
-        Delivered new UI features for web and iOS applications using React and
-        Swift/UIKit
+        Delivered new UI features and maintained existing features for web
+        applications using TypeScript and React
       </li>
       <li>
-        Implemented new iOS feature for starting/ending customer vehicle loans
-        to allow dealership employees to be more mobile with an iPhone/iPad
+        Implemented micro front end in web application to allow for new features
+        to be added in React while maintaining older features in AngularJS
       </li>
       <li>
         Spearheaded development on new web application to allow dealerships to
