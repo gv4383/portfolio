@@ -12,24 +12,6 @@ export const IMAGES = [
   // Web Projects
   {
     id: '0',
-    thumbnail: shelfie,
-    caption: 'Shelfie Web',
-    description: 'Keep inventory and manage your e-commerce products.',
-    technology: 'React | TypeScript | SCSS | HTML',
-    link: 'https://github.com/gv4383/shelfie-web',
-    github: 'https://github.com/gv4383/shelfie-web',
-  },
-  {
-    id: '1',
-    thumbnail: shelfieAPI,
-    caption: 'Shelfie API',
-    description: 'API for the Shelfie web application.',
-    technology: 'Node.js | Express | TypeScript',
-    link: 'https://github.com/gv4383/shelfie-api',
-    github: 'https://github.com/gv4383/shelfie-api',
-  },
-  {
-    id: '2',
     thumbnail: houser,
     caption: 'Houser Web',
     description: 'Manage your property and home listings.',
@@ -38,13 +20,31 @@ export const IMAGES = [
     github: 'https://github.com/gv4383/houser-web',
   },
   {
-    id: '3',
+    id: '1',
     thumbnail: houserAPI,
     caption: 'Houser API',
     description: 'API for the Houser web application.',
     technology: 'Node.js | Express | TypeScript | Knex.js | PostgreSQL',
     link: 'https://github.com/gv4383/houser-api',
     github: 'https://github.com/gv4383/houser-api',
+  },
+  {
+    id: '2',
+    thumbnail: shelfie,
+    caption: 'Shelfie Web',
+    description: 'Keep inventory and manage your e-commerce products.',
+    technology: 'React | TypeScript | SCSS | HTML',
+    link: 'https://github.com/gv4383/shelfie-web',
+    github: 'https://github.com/gv4383/shelfie-web',
+  },
+  {
+    id: '3',
+    thumbnail: shelfieAPI,
+    caption: 'Shelfie API',
+    description: 'API for the Shelfie web application.',
+    technology: 'Node.js | Express | TypeScript',
+    link: 'https://github.com/gv4383/shelfie-api',
+    github: 'https://github.com/gv4383/shelfie-api',
   },
   // iOS Projects
   {

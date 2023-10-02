@@ -5,7 +5,7 @@ import { IMAGES } from '../constants/images'
 
 const Gallery = ({ images = IMAGES }) => (
   <div>
-    {images && (
+    {images.length ? (
       <div className="row">
         {images.map((obj, i) => {
           return (
@@ -22,7 +22,7 @@ const Gallery = ({ images = IMAGES }) => (
           )
         })}
       </div>
-    )}
+    ) : null}
   </div>
 )
 
