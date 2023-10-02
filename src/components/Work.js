@@ -54,7 +54,7 @@ const Work = () => (
     <ul>
       <li>
         Delivered product description pages for new products and maintained
-        existing pages using TypeScript and React
+        existing pages using JavaScript, TypeScript, and React
       </li>
       <li>
         Configured A/B tests across website to help drive business metrics and
@@ -85,8 +85,8 @@ const Work = () => (
     <div>September 2020 - August 2021</div>
     <ul>
       <li>
-        Delivered new UI features and maintained existing features for web
-        applications using JavaScript and React
+        Delivered new UI features and maintained existing features for the Price
+        Manager product using JavaScript and React
       </li>
       <li>
         Implemented user roles feature that would allow users to have different
@@ -117,7 +117,7 @@ const Work = () => (
     <ul>
       <li>
         Delivered new UI features and maintained existing features for web
-        applications using TypeScript and React
+        applications using JavaScript, TypeScript, and React
       </li>
       <li>
         Implemented micro front end in web application to allow for new features
