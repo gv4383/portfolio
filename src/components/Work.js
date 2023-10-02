@@ -116,8 +116,8 @@ const Work = () => (
     <div>April 2019 - September 2020</div>
     <ul>
       <li>
-        Delivered new UI features and maintained existing features for web
-        applications using JavaScript, TypeScript, and React
+        Delivered new UI features and maintained existing features for the
+        Dealerware product using JavaScript, TypeScript, and React
       </li>
       <li>
         Implemented micro front end in web application to allow for new features
