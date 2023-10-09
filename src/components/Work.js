@@ -19,18 +19,17 @@ const Work = () => (
     <div>November 2022 - Present</div>
     <ul>
       <li>
-        Worked with clients to deliver new features, fix bugs/crashes, and
-        maintain existing features in their web and iOS applications
+        Lead effort in UI overhaul project by writing tech specs for
+        stakeholders, planning/estimating project work, and guiding other
+        engineers
       </li>
       <li>
-        Lead effort in overhauling UI for LightBlue application by
-        planning/estimating tickets and assigning work to other engineers on the
-        team
+        Implemented Firebase analytics tracking to target high-priority bugs and
+        crashes, resulting in a 7% reduction in bug/crash instances
       </li>
       <li>
-        Configured analytics tracking with Firebase. Used analytics data to
-        target specific features to prioritize user experience improvements and
-        fix high priority crashes/bugs.
+        Configured CircleCI to run linting and test suites for new and existing
+        projects. Optimized build configurations and reduced build times by 40%
       </li>
       <li>
         Configured iOS projects to implement new features in SwiftUI and
@@ -53,12 +52,13 @@ const Work = () => (
     <div>August 2021 - July 2022</div>
     <ul>
       <li>
-        Delivered product description pages for new products and maintained
-        existing pages using JavaScript, TypeScript, and React
+        Delivered 16 new product description pages using JavaScript, TypeScript,
+        and React, resulting in a 24% increase in new product pages
       </li>
       <li>
-        Configured A/B tests across website to help drive business metrics and
-        prioritize user experience improvements
+        Configured A/B tests to drive business metrics and prioritize user
+        experience improvements, resulting in a 4% increase in customer
+        conversion
       </li>
       <li>
         Implemented new features behind feature flags to have controlled
@@ -66,8 +66,8 @@ const Work = () => (
         and time important features/sales on high traffic days such as holidays
       </li>
       <li>
-        Contributed to Node.js proxy API by creating endpoints to efficiently
-        serve product data to various product description pages
+        Refactored Node.js proxy API to reduce amount of unnecessary data being
+        sent and allow for simpler data consumption on the front end
       </li>
     </ul>
 
@@ -85,20 +85,20 @@ const Work = () => (
     <div>September 2020 - August 2021</div>
     <ul>
       <li>
-        Delivered new UI features and maintained existing features for the Price
-        Manager product using JavaScript and React
+        Delivered user roles experience feature on the front end using React,
+        allowing for unique UX/UI depending on a user's set of roles
       </li>
       <li>
-        Implemented user roles feature that would allow users to have different
-        experiences in our application based on their assigned roles
+        Implemented Redux store in React project to store user data, including
+        user roles, and have it easily available across the application
       </li>
       <li>
-        Contributed to Redux architecture to allow for predictable application
-        states and easy access to data needed across the application
+        Tested React component functionality using Jest/Enzyme and increased our
+        react testing coverage by 17%
       </li>
       <li>
-        Developed and maintained API services/endpoints in Node.js/Express to
-        support new UI features in our application
+        Developed API endpoints using Node.js for the front end to manage user
+        roles, including fetching, assigning, and removing any associated roles
       </li>
     </ul>
 
@@ -116,21 +116,24 @@ const Work = () => (
     <div>April 2019 - September 2020</div>
     <ul>
       <li>
-        Delivered new UI features and maintained existing features for the
-        Dealerware product using JavaScript, TypeScript, and React
+        Spearheaded development on new React/TypeScript web app to allow
+        dealerships to onboard themselves into the Dealerware system instead of
+        having our customer service team onboard them, which saved over 100
+        hours of manual work per month
       </li>
       <li>
-        Implemented micro front end in web application to allow for new features
-        to be added in React while maintaining older features in AngularJS
+        Contributed to our in-house UI library to create reusable components in
+        React, saving 150+ hours of development per month
       </li>
       <li>
-        Spearheaded development on new web application to allow dealerships to
-        onboard themselves into the Dealerware system instead of having our
-        customer service team onboard them
+        Implemented micro front end in our web application to allow for new
+        features to be added in React while maintaining older features in
+        AngularJS
       </li>
       <li>
-        Developed and maintained API services/endpoints in Ruby on Rails to
-        support UI features in our web and mobile applications
+        Developed API endpoints using Ruby on Rails to manage vehicle loan
+        contracts, allowing dealerships to easily start/stop contracts and view
+        associated vehicle and customer data
       </li>
     </ul>
 
